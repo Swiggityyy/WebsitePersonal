@@ -5,7 +5,6 @@ import Contact from './pages/Contact';
 import Error from './pages/Error';
 import Homepage from './pages/Homepage';
 import Info from './pages/Info'
-import Carousel from './components/Headerphoto';
 import Headerphoto from './components/Headerphoto';
 
 function App() {
