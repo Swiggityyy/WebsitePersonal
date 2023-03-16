@@ -1,5 +1,5 @@
 import './App.css';
-import { HashRouter, Routes, Route } from 'react-router-dom'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Calendar from './pages/Calendar';
 import Contact from './pages/Contact';
 import Error from './pages/Error';
@@ -10,7 +10,7 @@ import Headerphoto from './components/Headerphoto';
 function App() {
   return (
     <div>
-    <HashRouter>
+    <BrowserRouter>
     <Routes>
     <Route index element={<Homepage />} />
     <Route path='/info' element={<Info />} />
@@ -20,7 +20,7 @@ function App() {
     <Route path='*' element={<Error />} />
 
     </Routes>
-    </HashRouter>
+    </BrowserRouter>
     </div>
   );
 }
