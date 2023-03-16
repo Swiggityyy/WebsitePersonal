@@ -1,4 +1,4 @@
-import Headerinfo from "../components/Headerinfo"
+import Headerinfo from "../components/headerinfo"
 export default function Info() {
     return (
         <>

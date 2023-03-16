@@ -1,11 +1,11 @@
 import './App.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
-import Calendar from './pages/Calendar';
-import Contact from './pages/Contact';
-import Error from './pages/Error';
-import Homepage from './pages/Homepage';
-import Info from './pages/Info'
-import Headerphoto from './components/Headerphoto';
+import Calendar from './pages/calendar';
+import Contact from './pages/contact';
+import Error from './pages/error';
+import Homepage from './pages/homepage';
+import Info from './pages/info'
+import Headerphoto from './components/headerphoto';
 
 function App() {
   return (

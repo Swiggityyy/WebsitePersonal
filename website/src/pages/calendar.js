@@ -1,4 +1,4 @@
-import Headercalendar from "../components/Headercalendar"
+import Headercalendar from "../components/headercalendar"
 
 export default function Calendar() {
     return (

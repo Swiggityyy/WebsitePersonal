@@ -1,4 +1,4 @@
-import HeaderHome from "../components/HeaderHome"
+import HeaderHome from "../components/headerhome"
 
 export default function Error() {
     return (

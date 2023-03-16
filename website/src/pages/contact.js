@@ -1,4 +1,4 @@
-import Headercontact from "../components/Headercontact"
+import Headercontact from "../components/headercontact"
 
 export default function Contact() {
     return (
