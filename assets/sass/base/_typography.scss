@@ -1,52 +1,50 @@
 ///
-/// Editorial by HTML5 UP
+/// Stellar by HTML5 UP
 /// html5up.net | @ajlkn
 /// Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 ///
 
 /* Type */
 
-	body, input, select, textarea {
+	body {
+		background-color: _palette(bg);
 		color: _palette(fg);
+	}
+
+	body, input, select, textarea {
 		font-family: _font(family);
-		font-size: 13pt;
+		font-size: 17pt;
 		font-weight: _font(weight);
 		line-height: 1.65;
 
 		@include breakpoint('<=xlarge') {
-			font-size: 11pt;
+			font-size: 14pt;
 		}
 
 		@include breakpoint('<=large') {
-			font-size: 10pt;
+			font-size: 12pt;
 		}
 
 		@include breakpoint('<=xxsmall') {
-			font-size: 9pt;
+			font-size: 11pt;
 		}
 	}
 
 	a {
 		@include vendor('transition', (
-			'color #{_duration(transition)} ease-in-out',
-			'border-bottom-color #{_duration(transition)} ease-in-out'
+			'color #{_duration(transition)} ease',
+			'border-bottom #{_duration(transition)} ease'
 		));
-		border-bottom: dotted 1px;
-		color: _palette(accent);
 		text-decoration: none;
+		border-bottom: dotted 1px;
+		color: inherit;
 
 		&:hover {
-			border-bottom-color: _palette(accent);
-			color: _palette(accent) !important;
-
-			strong {
-				color: inherit;
-			}
+			border-bottom-color: transparent;
 		}
 	}
 
 	strong, b {
-		color: _palette(fg-bold);
 		font-weight: _font(weight-bold);
 	}
 
@@ -56,30 +54,39 @@
 
 	p {
 		margin: 0 0 _size(element-margin) 0;
+
+		&.content {
+			-moz-columns: 20em 2;
+			-webkit-columns: 20em 2;
+			-ms-columns: 20em 2;
+			columns: 20em 2;
+			-moz-column-gap: _size(element-margin);
+			-webkit-column-gap: _size(element-margin);
+			-ms-column-gap: _size(element-margin);
+			column-gap: _size(element-margin);
+			text-align: justify;
+		}
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: _palette(fg-bold);
-		font-family: _font(family-heading);
-		font-weight: _font(weight-heading);
+		font-weight: _font(weight);
 		line-height: 1.5;
-		margin: 0 0 (_size(element-margin) * 0.5) 0;
+		margin: 0 0 (_size(element-margin) * 0.35) 0;
+		letter-spacing: _font(letter-spacing);
 
 		a {
 			color: inherit;
 			text-decoration: none;
-			border-bottom: 0;
 		}
 	}
 
 	h1 {
-		font-size: 4em;
-		margin: 0 0 (_size(element-margin) * 0.25) 0;
-		line-height: 1.3;
+		font-size: 2.5em;
+		line-height: 1.2;
 	}
 
 	h2 {
-		font-size: 1.75em;
+		font-size: 1.5em;
 	}
 
 	h3 {
@@ -98,26 +105,9 @@
 		font-size: 0.7em;
 	}
 
-	@include breakpoint('<=xlarge') {
-		h1 {
-			font-size: 3.5em;
-		}
-	}
-
-	@include breakpoint('<=medium') {
-		h1 {
-			font-size: 3.25em;
-		}
-	}
-
 	@include breakpoint('<=small') {
 		h1 {
 			font-size: 2em;
-			line-height: 1.4;
-		}
-
-		h2 {
-			font-size: 1.5em;
 		}
 	}
 
@@ -134,16 +124,15 @@
 	}
 
 	blockquote {
-		border-left: solid 3px _palette(border);
+		border-left: solid 4px;
 		font-style: italic;
 		margin: 0 0 _size(element-margin) 0;
 		padding: (_size(element-margin) / 4) 0 (_size(element-margin) / 4) _size(element-margin);
 	}
 
 	code {
-		background: _palette(border-bg);
 		border-radius: _size(border-radius);
-		border: solid 1px _palette(border);
+		border: solid 1px;
 		font-family: _font(family-fixed);
 		font-size: 0.9em;
 		margin: 0 0.25em;
@@ -166,7 +155,7 @@
 
 	hr {
 		border: 0;
-		border-bottom: solid 1px _palette(border);
+		border-bottom: solid 1px;
 		margin: _size(element-margin) 0;
 
 		&.major {
@@ -185,3 +174,43 @@
 	.align-right {
 		text-align: right;
 	}
+
+	@mixin color-typography($p: null) {
+		@if $p != null {
+			background-color: _palette($p, bg);
+			color: _palette($p, fg);
+		}
+
+		input, select, textarea {
+			color: _palette($p, fg-bold);
+		}
+
+		a {
+			&:hover {
+				color: _palette($p, fg-bold);
+			}
+		}
+
+		strong, b {
+			color: _palette($p, fg-bold);
+		}
+
+		h1, h2, h3, h4, h5, h6 {
+			color: _palette($p, fg-bold);
+		}
+
+		blockquote {
+			border-left-color: _palette($p, border);
+		}
+
+		code {
+			background: _palette($p, border-bg);
+			border-color: _palette($p, border);
+		}
+
+		hr {
+			border-bottom-color: _palette($p, border);
+		}
+	}
+
+	@include color-typography;
