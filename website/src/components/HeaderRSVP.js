@@ -13,7 +13,7 @@ export default function HeaderRSVP() {
                 <div class="col-md-4 mb-3">
                     <label for="validationCustom01">First name</label>
                     <div class="input-group">
-                        <input type="text" class="form-control" id="validationCustom01" placeholder="First name" value="Mark" required />
+                        <input type="text" class="form-control" id="validationCustom01" placeholder="First name" required />
                         <div class="valid-feedback">
                             Looks good!
                         </div>
@@ -22,7 +22,7 @@ export default function HeaderRSVP() {
                 <div class="col-md-4 mb-3">
                     <label for="validationCustom02">Last name</label>
                     <div class="input-group">
-                        <input type="text" class="form-control" id="validationCustom02" placeholder="Last name" value="Otto" required />
+                        <input type="text" class="form-control" id="validationCustom02" placeholder="Last name" required />
                         <div class="valid-feedback">
                             Looks good!
                         </div>
@@ -31,7 +31,7 @@ export default function HeaderRSVP() {
                 <div class="col-md-4 mb-3">
                     <label for="numGuests">Number of Guests</label>
                     <div class="input-group">
-                        <input type="text" class="form-control" id="numGuests" placeholder="#Guests" aria-describedby="inputGroupPrepend" required />
+                        <input type="text" class="form-control" id="numGuests" placeholder="#Guests" required />
                         <div class="invalid-feedback">
                             Please let us know the size of your party.
                         </div>
