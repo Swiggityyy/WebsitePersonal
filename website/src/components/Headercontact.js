@@ -8,7 +8,7 @@ export default function Headercontact() {
                         <div class="mt-4">
                             <p>Phone: 714-414-9723</p>
                             <p>Email: ChrisAndUyenie@gmail.com</p>
-                            <p>Address: 14412 Riverton St</p>
+                            <p>Mailing: 14412 Riverton St</p>
                             <p>Westminster CA 92683</p>
                         </div>
                     </div>
