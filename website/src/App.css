@@ -172,17 +172,10 @@
     left: 0%;
   }
 
-
-  .containerChat {
-    align-self: right;
-    color: white;
-    height: 20px;
-    width: 100px;
-    right:0;
+  .form-control {
+    padding:10px;
+    border-radius:20px;
   }
+
 }
 
-.form-control {
-  padding:10px;
-  border-radius:20px;
-}
