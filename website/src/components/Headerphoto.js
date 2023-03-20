@@ -783,7 +783,6 @@ export default function Headerphoto() {
             />;
             <h1 class="mt-5" href="">Random Album</h1>
             <div class="mt-5" href="https://chrisanduyenie.s3.us-west-1.amazonaws.com/images/">Engagement Album</div>
-            <h1 class="mt-5" href="">Wedding Album</h1>
 
         </div>
 
