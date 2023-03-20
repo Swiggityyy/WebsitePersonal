@@ -780,7 +780,6 @@ export default function Headerphoto() {
                 shuffle={true}
                 useBrowserFullscreen={true}
             />;
-            <label href=''>Full Album can be viewed here!</label>
         </div>
 
     )
