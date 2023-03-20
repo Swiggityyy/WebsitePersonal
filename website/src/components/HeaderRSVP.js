@@ -38,15 +38,15 @@ export default function HeaderRSVP() {
                     <label for="city">City</label>
                     <input type="text" class="form-control" id="city" placeholder="City" />
                 </div>
-                <div class="col-md-3 mb-3">
+                <div class="col-md-4 mb-3">
                     <label for="state">State</label>
                     <input type="text" class="form-control" id="state" placeholder="State" />
                 </div>
-                <div class="col-md-3 mb-3">
+                <div class="col-md-4 mb-3">
                     <label for="zipcode">Zip</label>
                     <input type="text" class="form-control" id="zipcode" placeholder="Zip" />
                 </div>
-                <div class="col-md-12 mb-3">
+                <div class="col-lg-12 mb-3">
                     <label for="comment">Comments</label>
                     <div class="input-group">
                         <input type="text" class="form-control" id="comment" placeholder="Wedding Wishes!!!" />
