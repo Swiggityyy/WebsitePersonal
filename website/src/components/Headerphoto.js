@@ -780,7 +780,7 @@ export default function Headerphoto() {
                 showFullscreenButton={true}
                 lazyLoad={true}
                 thumbnailPosition='right'
-                useBrowserFullscreen={false}
+                useBrowserFullscreen={true}
             />;
         </div>
 
