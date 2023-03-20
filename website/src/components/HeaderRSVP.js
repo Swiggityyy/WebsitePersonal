@@ -35,7 +35,7 @@ export default function HeaderRSVP() {
                 <div class="col-md-4 mb-3">
                     <label for="address">Full Address</label>
                     <input type="text" class="form-control" id="address" placeholder="12345 Fake Street, Imaginary City CA 92683" />
-                    <div class="col-md-12 mb-3">
+                    <div class="col-md-12 mb-4">
                         <label for="comment">Comments and Blessings</label>
                         <div class="input-group">
                             <input type="text" class="form-control" id="comment" height="150px" placeholder="Dear Chris and Uyenie, you guys are awesome. We are grateful to have you in our lives. Love -The best relative ever :)" />
