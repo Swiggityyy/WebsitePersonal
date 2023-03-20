@@ -3,8 +3,6 @@ import ImageGallery from 'react-image-gallery';
 import "./react-image-gallery/styles/css/image-gallery.css";
 
 export default function Headerphoto() {
-    <h1 class="mt-5">Chris and Uyenie's Wedding</h1>
-
     const images = [
         {
             original: 'https://chrisanduyenie.s3.us-west-1.amazonaws.com/images/ChrisUyenie_RVP110.jpg',
@@ -773,6 +771,7 @@ export default function Headerphoto() {
     ];
 
     return (
+        
         <div>
             <ImageGallery items={images}
                 showPlayButton={false}
@@ -782,6 +781,10 @@ export default function Headerphoto() {
                 shuffle={true}
                 useBrowserFullscreen={true}
             />;
+            <h1 class="mt-5" href="">Random Album</h1>
+            <h1 class="mt-5" href="https://www.facebook.com/media/set/?set=a.1670571540040871&type=3">Engagement Album</h1>
+            <h1 class="mt-5" href="">Wedding Album</h1>
+
         </div>
 
     )
