@@ -1,14 +1,26 @@
-export default function HeaderRSVP () {
+import React from "react"
+
+export default function HeaderRSVP() {
     return (
-        <section data-toggle="collapse" data-target=".navbar-collapse">
-        <div class="container px-4 px-lg-5">
-            <div class="row gx-4 gx-lg-5">
-                <div class="col-lg-6">
-                    <h1 class="mt-5">RSVP</h1>
-                    <p></p>
-                </div>
-            </div>
-        </div>
-    </section>
+        <form name="contact" method="POST" data-netlify="true">
+            <p>
+                <label>Your Name: <input type="text" name="name" /></label>
+            </p>
+            <p>
+                <label>Your Email: <input type="email" name="email" /></label>
+            </p>
+            <p>
+                <label>Your Role: <select name="role[]" multiple>
+                    <option value="leader">Leader</option>
+                    <option value="follower">Follower</option>
+                </select></label>
+            </p>
+            <p>
+                <label>Message: <textarea name="message"></textarea></label>
+            </p>
+            <p>
+                <button type="submit">Send</button>
+            </p>
+        </form>
     )
 }
