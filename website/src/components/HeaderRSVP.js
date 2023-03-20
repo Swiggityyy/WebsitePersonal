@@ -60,7 +60,7 @@ export default function HeaderRSVP() {
                     <div class="col-md-10 mb-2">
                         <label htmlFor="comment">Comments and Blessings</label>
                         <div class="input-group">
-                            <textarea type="text" class="form-control" placeholder="Dear Chris and Uyenie, you guys are awesome. We are grateful to have you in our lives. -Love, the best relative ever :)" />
+                            <textarea type="text" id="comment" class="form-control" placeholder="Dear Chris and Uyenie, you guys are awesome. We are grateful to have you in our lives. -Love, the best relative ever :)" />
                             <div class="valid-feedback">
                                 Thank you!
                             </div>
