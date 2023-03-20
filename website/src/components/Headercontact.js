@@ -1,7 +1,7 @@
 export default function Headercontact() {
     return (
-        <section data-toggle="collapse" data-target=".navbar-collapse">
-            <div class="popup">
+        <section class="popup" data-toggle="collapse" data-target=".navbar-collapse">
+            <div class="mt-5">
                 <h1>Contact</h1>
                 <p>Chris
                 Phone: (714)414-9723
