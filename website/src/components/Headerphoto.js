@@ -772,8 +772,9 @@ export default function Headerphoto() {
             },
     ];
 
+    random = Math.random() * 100;
+    
     return (
-        
         <div>
             <ImageGallery items={images}
                 startIndex={random}
