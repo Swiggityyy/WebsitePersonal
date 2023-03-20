@@ -68,10 +68,10 @@
 
 /* Place the container to the left */
 .left {
-  left: 0;
+  left: -25%;
 }
 
 /* Place the container to the right */
 .right {
-  left: 0%;
+  left: 25%;
 }
