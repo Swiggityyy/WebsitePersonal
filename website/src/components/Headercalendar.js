@@ -1,6 +1,7 @@
 
 export default function Headercalendar() {
     return (
+        <timeline class="mt-5" align="center">
         <div class="timeline">
             <div class="container left">
                 <div class="content">
@@ -15,5 +16,6 @@ export default function Headercalendar() {
                 </div>
             </div>
         </div>
+        </timeline>
     )
 }
