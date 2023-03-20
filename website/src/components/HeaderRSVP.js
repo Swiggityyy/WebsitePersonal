@@ -4,13 +4,13 @@ export default function HeaderRSVP() {
     return (
 
         <form 
-        name="contact v1" 
+        name="contact" 
         method="post" 
         class="mt-4" 
         data-netlify="true"
         onSubmit="submit" >
 
-        <input type="hidden" name="form-name" value="contact v1"/>
+        <input type="hidden" name="form-name" value="contact"/>
             <div class="form-row">
                 <div class="col-md-4 mb-2">
                     <label htmlFor="fullName">Full Name</label>
