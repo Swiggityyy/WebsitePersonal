@@ -11288,14 +11288,7 @@ textarea.form-control-lg {
     display: none !important;
   }
 
-  .popup {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    -webkit-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-}
-
+ 
 }
 body {
   background: url("./2.jpg") no-repeat top center fixed;

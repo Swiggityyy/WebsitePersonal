@@ -5,7 +5,14 @@ export default function Headercontact () {
             <div class="row gx-4 gx-lg-5">
                 <div class="col-lg-6">
                     <h1 class="mt-5">Contact</h1>
-                    <p></p>
+                    <p>
+                    Chris
+                    (714)414-9723
+                    </p>
+                    <p>
+                    Uyenie
+                    (714)209-2332
+                    </p>
                 </div>
             </div>
         </div>
