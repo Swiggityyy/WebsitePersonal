@@ -68,12 +68,12 @@
 
 /* Place the container to the left */
 .leftcalendar {
-  left: -25%;
+  left: 0%;
 }
 
 /* Place the container to the right */
 .rightcalendar {
-  left: 25%;
+  left: 50%;
 }
 
 /* Add arrows to the left container (pointing right) */
