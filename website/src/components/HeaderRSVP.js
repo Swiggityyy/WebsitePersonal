@@ -3,11 +3,16 @@ import React from "react"
 export default function HeaderRSVP() {
     return (
 
-        <form name="contact" method="POST" class="mt-4" onSubmit="submit" data-netlify="true">
-            <input type="hidden" name="contact" value="contactv1" />
-            <div hidden>
-                <input name="bot-field" />
-            </div>
+        <form 
+        name="contact" 
+        method="post" 
+        class="mt-4"
+        onSubmit="submit" 
+        data-netlify="true">
+            // <input type="hidden" name="contact" value="contact" />
+            // <div hidden>
+            //     <input name="bot-field" />
+            // </div>
 
             <div class="form-row">
                 <div class="col-md-4 mb-2">
