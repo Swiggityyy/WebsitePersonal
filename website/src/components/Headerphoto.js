@@ -774,11 +774,9 @@ export default function Headerphoto() {
         <div>
             <ImageGallery items={images}
                 showPlayButton={true}
-                showFullscreenButton={true}
                 lazyLoad={true}
                 thumbnailPosition='right'
                 shuffle={true}
-                useBrowserFullscreen={true}
             />;
         </div>
 
