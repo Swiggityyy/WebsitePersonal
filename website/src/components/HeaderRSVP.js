@@ -3,14 +3,18 @@ import React from "react"
 export default function HeaderRSVP() {
     return (
 
-        <form 
-        name="contact" 
-        method="post" 
-        class="mt-4" 
-        data-netlify="true"
-        onSubmit="submit" >
+        <form
+            name="contact"
+            method="post"
+            class="mt-4"
+            data-netlify="true"
+            onSubmit="submit"
+            data-netlify-honeypot="bot-field">
 
-        <input type="hidden" name="form-name" value="contact"/>
+            <input type="hidden" name="form-name" value="contact" />
+            <div hidden>
+                <input name="bot-field" />
+            </div>
             <div class="form-row">
                 <div class="col-md-4 mb-2">
                     <label htmlFor="fullName">Full Name</label>
