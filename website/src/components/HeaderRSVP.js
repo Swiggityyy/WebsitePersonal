@@ -19,7 +19,7 @@ export default function HeaderRSVP() {
                         </div>
                     </div>
                 </div>
-                <div class="col-md-1 mb-3">
+                <div class="col-md-3 mb-3">
                     <label for="numGuests">Number of Guests</label>
                     <div class="input-group">
                         <input type="text" class="form-control" id="numGuests" placeholder="#Guests" required />
@@ -34,6 +34,10 @@ export default function HeaderRSVP() {
                     <label for="validationCustom03">City</label>
                     <input type="text" class="form-control" id="validationCustom03" placeholder="City" />
                 </div>
+                <div class="col-md-4 mb-3">
+                    <label for="validationCustom03">City</label>
+                    <input type="text" class="form-control" id="validationCustom03" placeholder="City" />
+                </div>
                 <div class="col-md-3 mb-3">
                     <label for="validationCustom04">State</label>
                     <input type="text" class="form-control" id="validationCustom04" placeholder="State" />
@@ -42,7 +46,7 @@ export default function HeaderRSVP() {
                     <label for="validationCustom05">Zip</label>
                     <input type="text" class="form-control" id="validationCustom05" placeholder="Zip" />
                 </div>
-                <div class="col-md-8 mb-6">
+                <div class="col-md-12 mb-6">
                     <label for="comment">Comments</label>
                     <div class="input-group">
                         <input type="text" class="form-control" id="comment" placeholder="Wedding Wishes!!!" />
