@@ -37,7 +37,8 @@ export default function HeaderRSVP() {
                 <div class="col-md-4 mb-2">
                     <label htmlFor="phone">Phone</label>
                     <div class="input-group">
-                        <input type="tel" name="phone" class="form-control" id="phone" placeholder="(714)123-1234" required />
+                        <input type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" name="phone" class="form-control" id="phone" placeholder="(714)123-1234" required />
+                        <small>Format: 123-456-7890</small>
                         <div class="invalid-feedback">
                             Please provide a working phone number.
                         </div>
