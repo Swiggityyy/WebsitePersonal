@@ -22,7 +22,7 @@ export default function HeaderRSVP() {
                 <div class="col-md-4 mb-3">
                     <label for="numGuests">Number of Guests</label>
                     <div class="input-group">
-                        <input type="text" class="form-control" id="numGuests" placeholder="#Guests" required />
+                        <input type="text" class="form-control" id="numGuests" placeholder="Number of Guests" required />
                         <div class="invalid-feedback">
                             Please let us know the size of your party.
                         </div>
@@ -31,20 +31,20 @@ export default function HeaderRSVP() {
             </div>
             <div class="form-row">
                 <div class="col-md-4 mb-3">
-                    <label for="validationCustom03">City</label>
-                    <input type="text" class="form-control" id="validationCustom03" placeholder="City" />
+                    <label for="country">Country</label>
+                    <input type="text" class="form-control" id="country" placeholder="Canada/US" />
                 </div>
                 <div class="col-md-4 mb-3">
-                    <label for="validationCustom03">City</label>
-                    <input type="text" class="form-control" id="validationCustom03" placeholder="City" />
+                    <label for="city">City</label>
+                    <input type="text" class="form-control" id="city" placeholder="City" />
                 </div>
                 <div class="col-md-3 mb-3">
-                    <label for="validationCustom04">State</label>
-                    <input type="text" class="form-control" id="validationCustom04" placeholder="State" />
+                    <label for="state">State</label>
+                    <input type="text" class="form-control" id="state" placeholder="State" />
                 </div>
                 <div class="col-md-3 mb-3">
-                    <label for="validationCustom05">Zip</label>
-                    <input type="text" class="form-control" id="validationCustom05" placeholder="Zip" />
+                    <label for="zipcode">Zip</label>
+                    <input type="text" class="form-control" id="zipcode" placeholder="Zip" />
                 </div>
                 <div class="col-md-12 mb-3">
                     <label for="comment">Comments</label>
