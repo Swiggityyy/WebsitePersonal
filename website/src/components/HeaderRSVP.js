@@ -3,7 +3,7 @@ import React from "react"
 export default function HeaderRSVP() {
     return (
 
-        <form name="contact" method="POST" class="mt-4" data-netlify="true">
+        <form name="contact" method="POST" class="mt-4" onSubmit="submit" data-netlify="true">
             <input type="hidden" name="contact" value="contactv1" />
             <div hidden>
                 <input name="bot-field" />
