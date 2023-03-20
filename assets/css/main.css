@@ -3785,7 +3785,7 @@ input, select, textarea {
 		}
 
 		@media screen and (max-width: 800px) {
-  .photocolumn {
+  .photorow {
     flex: 50%;
     max-width: 50%;
   }
