@@ -4,15 +4,11 @@ export default function HeaderRSVP() {
     return (
 
         <form 
-        name="contact" 
+        name="contact v1" 
         method="post" 
-        class="mt-4"
-        onSubmit="submit" 
-        data-netlify="true">
-            // <input type="hidden" name="contact" value="contact" />
-            // <div hidden>
-            //     <input name="bot-field" />
-            // </div>
+        class="mt-4" 
+        data-netlify="true"
+        onSubmit="submit" >
 
             <div class="form-row">
                 <div class="col-md-4 mb-2">
