@@ -5,13 +5,27 @@ export default function Headercontact () {
             <div class="row gx-4 gx-lg-5">
                 <div class="col-lg-6">
                     <h1 class="mt-5">Contact</h1>
-                    <p>
-                    Chris
+                    <p class="mt-4">
+                    Chris<br>
                     (714)414-9723
+                    <br>
+                    ChrisAndUyenie@gmail.com
+                    <br>
+                    8432 Sandalwood Cir, Westminster CA 92683
+                    </br>
+                    </br>
+                    </br>
                     </p>
-                    <p>
-                    Uyenie
+                    <p class="mt-4">
+                    Uyenie<br>
                     (714)209-2332
+                    <br>
+                    ChrisAndUyenie@gmail.com
+                    <br>
+                    14421 Riverton Street, Westminster CA 92683
+                    </br>
+                    </br>
+                    </br>
                     </p>
                 </div>
             </div>
