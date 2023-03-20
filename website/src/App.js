@@ -1,7 +1,7 @@
 import './App.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Calendar from './pages/Calendar';
-import Contact from './pages/Contact';
+import {Contact, CommentBox} from './pages/Contact';
 import Error from './pages/Error';
 import Homepage from './pages/Homepage';
 import RSVP from './pages/RSVP'
