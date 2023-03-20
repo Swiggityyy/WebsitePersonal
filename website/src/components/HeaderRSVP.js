@@ -4,7 +4,7 @@ export default function HeaderRSVP() {
     return (
 
         <form name="contact" class="mt-4" netlify>
-            <input type="hidden" name="form-name" value="contact" />
+            <input type="hidden" name="contact" value="contact" />
             <div hidden>
                 <input name="bot-field" />
             </div>
