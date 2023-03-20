@@ -3783,3 +3783,10 @@ input, select, textarea {
 			}
 
 		}
+
+		@media screen and (max-width: 600px) {
+  .photorow {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
