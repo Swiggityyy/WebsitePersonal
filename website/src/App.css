@@ -181,3 +181,8 @@
     right:0;
   }
 }
+
+contact {
+  padding:10px;
+  border-radius:10px;
+}
