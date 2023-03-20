@@ -1,6 +1,6 @@
 /home                /
-/photos    /Phots.js
-/calendar                /Calendar.js
-/contact              /Contact.js
+/photos    /photos
+/calendar                /calendar
+/contact              /contact
 /error              /*
-/info              /Info.js
+/info              /info
