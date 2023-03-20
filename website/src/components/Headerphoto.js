@@ -3,6 +3,15 @@ import ImageGallery from 'react-image-gallery';
 import "./react-image-gallery/styles/css/image-gallery.css";
 
 export default function Headerphoto() {
+    <section data-toggle="collapse" data-target=".navbar-collapse">
+    <div class="container px-4 px-lg-5">
+        <div class="row gx-4 gx-lg-5">
+            <div class="col-lg-6">
+                <h1 class="mt-5" href="https://chrisanduyenie.s3.us-west-1.amazonaws.com/images/">Link to Album</h1>
+            </div>
+        </div>
+    </div>
+</section>
     const images = [
         {
             original: 'https://chrisanduyenie.s3.us-west-1.amazonaws.com/images/ChrisUyenie_RVP110.jpg',
@@ -773,7 +782,6 @@ export default function Headerphoto() {
     return (
         
         <div>
-        <link>https://chrisanduyenie.s3.us-west-1.amazonaws.com/images/</link>
             <ImageGallery items={images}
                 showPlayButton={false}
                 showFullscreenButton={false}
