@@ -773,6 +773,7 @@ export default function Headerphoto() {
     return (
         
         <div>
+        <link>https://chrisanduyenie.s3.us-west-1.amazonaws.com/images/</link>
             <ImageGallery items={images}
                 showPlayButton={false}
                 showFullscreenButton={false}
@@ -781,9 +782,6 @@ export default function Headerphoto() {
                 shuffle={true}
                 useBrowserFullscreen={true}
             />;
-            <h1 class="mt-5" href="">Random Album</h1>
-            <div class="mt-5" href="https://chrisanduyenie.s3.us-west-1.amazonaws.com/images/">Engagement Album</div>
-
         </div>
 
     )
