@@ -10,6 +10,7 @@ export default function HeaderRSVP() {
         data-netlify="true"
         onSubmit="submit" >
 
+        <input type="hidden" name="form-name" value="contact v1"/>
             <div class="form-row">
                 <div class="col-md-4 mb-2">
                     <label for="validationCustom01">Full Name</label>
