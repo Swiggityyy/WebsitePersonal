@@ -39,7 +39,7 @@ export default function HeaderRSVP() {
                 </div>
             </div>
             <div class="form-row">
-                <div class="col-md-6 mb-3">
+                <div class="col-md-4 mb-3">
                     <label for="validationCustom03">City</label>
                     <input type="text" class="form-control" id="validationCustom03" placeholder="City" required />
                     <div class="invalid-feedback">
