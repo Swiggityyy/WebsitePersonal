@@ -7321,7 +7321,6 @@ textarea.form-control-lg {
 
 .mt-5 {
   margin-top: 3rem !important;
-  color: whitesmoke;
 }
 
 .mt-auto {
@@ -11286,9 +11285,8 @@ textarea.form-control-lg {
   .d-print-none {
     display: none !important;
   }
-
 }
 body {
-  background: url("./2.jpg") no-repeat top center fixed;
+  background: url("https://dummyimage.com/1920x1080/dee2e6/6c757d.jpg") no-repeat center center fixed;
   background-size: cover;
 }
