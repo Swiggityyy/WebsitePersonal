@@ -3,6 +3,7 @@ import ImageGallery from 'react-image-gallery';
 import "./react-image-gallery/styles/css/image-gallery.css";
 
 export default function Headerphoto() {
+    <h1 href="https://chrisanduyenie.s3.us-west-1.amazonaws.com/images/">Click here for Album</h1>
     const images = [
         {
             original: 'https://chrisanduyenie.s3.us-west-1.amazonaws.com/images/ChrisUyenie_RVP110.jpg',
