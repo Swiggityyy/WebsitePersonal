@@ -103,3 +103,11 @@
   border-width: 10px 10px 10px 0;
   border-color: transparent white transparent transparent;
 }
+
+/* The actual content */
+.content {
+  padding: 20px 30px;
+  background-color: white;
+  position: relative;
+  border-radius: 6px;
+}
