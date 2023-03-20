@@ -20,6 +20,24 @@ export default function HeaderRSVP() {
                     </div>
                 </div>
                 <div class="col-md-4 mb-3">
+                    <label for="email">Email</label>
+                    <div class="input-group">
+                        <input type="email" class="form-control" id="email" placeholder="JohnDoe@gmail.com" required />
+                        <div class="valid-feedback">
+                            Looks good!
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <label for="phone">Phone</label>
+                    <div class="input-group">
+                        <input type="text" class="form-control" id="phone" placeholder="(714)123-1234" required />
+                        <div class="invalid-feedback">
+                            Please provide a working phone number.
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-3">
                     <label for="numGuests">Number of Guests</label>
                     <div class="input-group">
                         <input type="text" class="form-control" id="numGuests" placeholder="Number of Guests" required />
