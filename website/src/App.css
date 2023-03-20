@@ -78,7 +78,7 @@ body {
 /* The circles on the timeline */
 .container::after {
   content: '';
-  position: absolute;
+  position: center;
   width: 25px;
   height: 25px;
   right: -17px;
@@ -129,7 +129,7 @@ body {
 
 /* Fix the circle for containers on the right side */
 .right::after {
-  left: -16px;
+  position: center;
 }
 
 /* The actual content */
