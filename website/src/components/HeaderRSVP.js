@@ -10,13 +10,13 @@ export default function HeaderRSVP() {
                 <label>Email <input type="email" name="email" /></label>
             </p>
             <p classname="rsvpcomment">
-                <label>Phone <input type="email" name="email" /></label>
+                <label>Phone <input type="phone" name="phone" /></label>
             </p>
             <p classname="rsvpcomment">
-                <label>Number of Guests <input type="email" name="email" /></label>
+                <label>Number of Guests <input type="plusone" name="plusone" /></label>
             </p>
             <p classname="rsvpcomment">
-                <label>Comments <input type="email" name="email" /></label>
+                <label>Comments <input type="comment" name="comment" /></label>
             </p>
             <p>
                 <button type="submit">Send</button>
