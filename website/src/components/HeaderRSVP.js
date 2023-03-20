@@ -13,7 +13,7 @@ export default function HeaderRSVP() {
         <input type="hidden" name="form-name" value="contact v1"/>
             <div class="form-row">
                 <div class="col-md-4 mb-2">
-                    <label for="validationCustom01">Full Name</label>
+                    <label htmlFor="fullName">Full Name</label>
                     <div class="input-group">
                         <input type="text" class="form-control" id="fullName" placeholder="John Doe" required />
                         <div class="valid-feedback">
@@ -22,7 +22,7 @@ export default function HeaderRSVP() {
                     </div>
                 </div>
                 <div class="col-md-4 mb-2">
-                    <label for="email">Email</label>
+                    <label htmlFor="email">Email</label>
                     <div class="input-group">
                         <input type="email" class="form-control" id="email" placeholder="JohnDoe@gmail.com" required />
                         <div class="valid-feedback">
@@ -31,7 +31,7 @@ export default function HeaderRSVP() {
                     </div>
                 </div>
                 <div class="col-md-4 mb-2">
-                    <label for="phone">Phone</label>
+                    <label htmlFor="phone">Phone</label>
                     <div class="input-group">
                         <input type="text" class="form-control" id="phone" placeholder="(714)123-1234" required />
                         <div class="invalid-feedback">
@@ -40,7 +40,7 @@ export default function HeaderRSVP() {
                     </div>
                 </div>
                 <div class="col-md-4 mb-2">
-                    <label for="numGuests">Number of Guests</label>
+                    <label htmlFor="numGuests">Number of Guests</label>
                     <div class="input-group">
                         <input type="text" class="form-control" id="numGuests" placeholder="Number of Guests" required />
                         <div class="invalid-feedback">
@@ -49,16 +49,16 @@ export default function HeaderRSVP() {
                     </div>
                 </div>
                 <div class="col-md-4 mb-2">
-                    <label for="country">Country</label>
+                    <label htmlFor="country">Country</label>
                     <input type="text" class="form-control" id="country" placeholder="Canada/US" />
                 </div>
                 <div class="col-md-4 mb-2">
-                    <label for="address">Full Address</label>
+                    <label htmlFor="address">Full Address</label>
                     <input type="text" class="form-control" id="address" placeholder="12345 Fake Street, Imaginary City CA 92683" />
                 </div>
                 <div class="form-row">
                     <div class="col-md-10 mb-2">
-                        <label for="comment">Comments and Blessings</label>
+                        <label htmlFor="comment">Comments and Blessings</label>
                         <div class="input-group">
                             <textarea type="text" class="form-control" placeholder="Dear Chris and Uyenie, you guys are awesome. We are grateful to have you in our lives. -Love, the best relative ever :)" />
                             <div class="valid-feedback">
