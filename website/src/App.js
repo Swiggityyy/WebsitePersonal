@@ -6,7 +6,6 @@ import Error from './pages/Error';
 import Homepage from './pages/Homepage';
 import RSVP from './pages/RSVP'
 import Headerphoto from './components/Headerphoto';
-import RSVP from './pages/RSVP';
 
 function App() {
   return (
