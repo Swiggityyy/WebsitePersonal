@@ -66,6 +66,20 @@
   width: 50%;
 }
 
+/* The circles on the timeline */
+.containercalendar::after {
+  content: '';
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  right: -17px;
+  background-color: white;
+  border: 4px solid #FF9F55;
+  top: 15px;
+  border-radius: 50%;
+  z-index: 1;
+}
+
 /* Place the container to the left */
 .leftcalendar {
   left: 0%;
@@ -104,6 +118,17 @@
   border-color: transparent white transparent transparent;
 }
 
+
+/* Fix the circle for containers on the right side */
+.right::after {
+  left: -16px;
+}
+
+/* Fix the circle for containers on the right side */
+.right::after {
+  left: -16px;
+}
+
 /* The actual content */
 .contentcalendar {
   padding: 20px 30px;
@@ -111,7 +136,6 @@
   position: relative;
   border-radius: 6px;
 }
-
 
 /* Media queries - Responsive timeline on screens less than 600px wide */
 @media screen and (max-width: 600px) {
