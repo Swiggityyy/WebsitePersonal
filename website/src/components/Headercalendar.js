@@ -36,7 +36,7 @@ export default function Headercalendar() {
             <div class="containercalendar leftcalendar">
                 <div class="contentcalendar">
                     <h2>October 30th 2021</h2>
-                    <p>Chris shows Uyenie go to the Aquarium</p>
+                    <p>Chris and Uyenie go to the Aquarium</p>
                 </div>
             </div>
             <div class="containercalendar rightcalendar">
