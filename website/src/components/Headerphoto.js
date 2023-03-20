@@ -2,6 +2,8 @@ import React from 'react';
 import ImageGallery from 'react-image-gallery';
 import "./react-image-gallery/styles/css/image-gallery.css";
 
+
+
 export default function Headerphoto() {
     const images = [
         {
@@ -773,12 +775,12 @@ export default function Headerphoto() {
     return (
         <div>
             <ImageGallery items={images}
+                startIndex={Math.random()}
                 showPlayButton={false}
-                showFullscreenButton={false}
+                showFullscreenButton={true}
                 lazyLoad={true}
                 thumbnailPosition='right'
-                shuffle={true}
-                useBrowserFullscreen={true}
+                useBrowserFullscreen={false}
             />;
         </div>
 
