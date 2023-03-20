@@ -11287,6 +11287,11 @@ textarea.form-control-lg {
     display: none !important;
   }
 
+  .rsvpcomment {
+    margin-top: 3rem !important;
+    color: whitesmoke;
+  }
+
 }
 body {
   background: url("./2.jpg") no-repeat top center fixed;
