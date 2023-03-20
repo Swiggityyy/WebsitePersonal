@@ -15,7 +15,7 @@ export default function HeaderRSVP() {
                 <div class="col-md-4 mb-2">
                     <label htmlFor="fullName">Full Name</label>
                     <div class="input-group">
-                        <input type="text" class="form-control" id="fullName" placeholder="John Doe" required />
+                        <input type="text" name="fullName" class="form-control" id="fullName" placeholder="John Doe" required />
                         <div class="valid-feedback">
                             Looks good!
                         </div>
@@ -24,7 +24,7 @@ export default function HeaderRSVP() {
                 <div class="col-md-4 mb-2">
                     <label htmlFor="email">Email</label>
                     <div class="input-group">
-                        <input type="email" class="form-control" id="email" placeholder="JohnDoe@gmail.com" required />
+                        <input type="email" name="email" class="form-control" id="email" placeholder="JohnDoe@gmail.com" required />
                         <div class="valid-feedback">
                             Looks good!
                         </div>
@@ -33,7 +33,7 @@ export default function HeaderRSVP() {
                 <div class="col-md-4 mb-2">
                     <label htmlFor="phone">Phone</label>
                     <div class="input-group">
-                        <input type="text" class="form-control" id="phone" placeholder="(714)123-1234" required />
+                        <input type="text" name="phone" class="form-control" id="phone" placeholder="(714)123-1234" required />
                         <div class="invalid-feedback">
                             Please provide a working phone number.
                         </div>
@@ -42,7 +42,7 @@ export default function HeaderRSVP() {
                 <div class="col-md-4 mb-2">
                     <label htmlFor="numGuests">Number of Guests</label>
                     <div class="input-group">
-                        <input type="text" class="form-control" id="numGuests" placeholder="Number of Guests" required />
+                        <input type="text" name="numGuests" class="form-control" id="numGuests" placeholder="Number of Guests" required />
                         <div class="invalid-feedback">
                             Please let us know the size of your party.
                         </div>
@@ -50,17 +50,17 @@ export default function HeaderRSVP() {
                 </div>
                 <div class="col-md-4 mb-2">
                     <label htmlFor="country">Country</label>
-                    <input type="text" class="form-control" id="country" placeholder="Canada/US" />
+                    <input type="text" name="country" class="form-control" id="country" placeholder="Canada/US" />
                 </div>
                 <div class="col-md-4 mb-2">
                     <label htmlFor="address">Full Address</label>
-                    <input type="text" class="form-control" id="address" placeholder="12345 Fake Street, Imaginary City CA 92683" />
+                    <input type="text" name="address" class="form-control" id="address" placeholder="12345 Fake Street, Imaginary City CA 92683" />
                 </div>
                 <div class="form-row">
                     <div class="col-md-10 mb-2">
                         <label htmlFor="comment">Comments and Blessings</label>
                         <div class="input-group">
-                            <textarea type="text" id="comment" class="form-control" placeholder="Dear Chris and Uyenie, you guys are awesome. We are grateful to have you in our lives. -Love, the best relative ever :)" />
+                            <textarea type="text" name="comment" id="comment" class="form-control" placeholder="Dear Chris and Uyenie, you guys are awesome. We are grateful to have you in our lives. -Love, the best relative ever :)" />
                             <div class="valid-feedback">
                                 Thank you!
                             </div>
