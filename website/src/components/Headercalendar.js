@@ -1,3 +1,4 @@
+
 export default function Headercalendar () {
     return (
         <section data-toggle="collapse" data-target=".navbar-collapse">
@@ -5,7 +6,7 @@ export default function Headercalendar () {
             <div class="row gx-4 gx-lg-5">
                 <div class="col-lg-6">
                     <h1 class="mt-5">Calendar</h1>
-                    <p></p>
+                    <img href="../calendar.png"></img>
                 </div>
             </div>
         </div>
