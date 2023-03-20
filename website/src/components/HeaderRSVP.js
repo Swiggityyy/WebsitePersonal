@@ -39,8 +39,8 @@ export default function HeaderRSVP() {
                 <div class="form-row">
                     <div class="col-md-10 mb-10">
                         <label for="comment">Comments and Blessings</label>
-                        <div class="input-group" height="150px">
-                            <input type="text" class="form-control" id="comment" placeholder="Dear Chris and Uyenie, you guys are awesome. We are grateful to have you in our lives. -Love, the best relative ever :)" />
+                        <div class="input-group">
+                            <input type="text" height="150px" font-size="14pt" class="form-control" id="comment" placeholder="Dear Chris and Uyenie, you guys are awesome. We are grateful to have you in our lives. -Love, the best relative ever :)" />
                             <div class="valid-feedback">
                                 Thank you!
                             </div>
