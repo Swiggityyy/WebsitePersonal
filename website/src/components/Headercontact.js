@@ -6,11 +6,11 @@ export default function Headercontact() {
                     <div class="col-lg-6">
                         <h1 class="mt-5">Contact</h1>
                         <div class="mt-4">
-                            <p>Phone:</p>
-                            <p>Email:</p>
-                            <p>Address:</p>
+                            <p>Phone: 714-414-9723</p>
+                            <p>Email: ChrisAndUyenie@gmail.com</p>
+                            <p>Address: 14412 Riverton St</p>
+                            <p>Westminster CA 92683</p>
                         </div>
-
                     </div>
                 </div>
             </div>
