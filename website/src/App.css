@@ -120,12 +120,12 @@
 
 
 /* Fix the circle for containers on the right side */
-.right::after {
+.rightcalendar::after {
   left: -16px;
 }
 
 /* Fix the circle for containers on the right side */
-.right::after {
+.rightcalendar::after {
   left: -16px;
 }
 
