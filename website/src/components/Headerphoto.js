@@ -775,7 +775,7 @@ export default function Headerphoto() {
     return (
         <div>
             <ImageGallery items={images}
-                startIndex={Math.random()}
+                startIndex={Math.random() * (1 - 100) + 1}
                 showPlayButton={false}
                 showFullscreenButton={true}
                 lazyLoad={true}
