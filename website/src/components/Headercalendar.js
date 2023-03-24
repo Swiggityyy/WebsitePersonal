@@ -87,9 +87,26 @@ export default function Headercalendar() {
             </div>
             <div class="containercalendar rightcalendar">
                 <div class="contentcalendar">
+                    <h2>July 2nd 2021</h2>
+                    <p>Chris and Uyenie's first kiss
+                        It was at a stop light on a left
+                        hand turn on Bolsa and Magnolia.
+                    </p>
+                </div>
+            </div>
+            <div class="containercalendar leftcalendar">
+                <div class="contentcalendar">
+                    <h2>September 13th 2021</h2>
+                    <p>Chris and Uyenie goes on thei first official date.
+                        Chris takes Uyenie to Swap Meet and they see horses.</p>
+                </div>
+            </div>
+           
+            <div class="containercalendar rightcalendar">
+                <div class="contentcalendar">
                     <h2>June 20th 2021</h2>
-                    <p>Chris comes home and they go
-                        on their first date. Chris tricks
+                    <p>Chris comes home and they get
+                        ice cream. Chris tricks
                         Uyenie into watching a Quiet Place II</p>
                 </div>
             </div>
