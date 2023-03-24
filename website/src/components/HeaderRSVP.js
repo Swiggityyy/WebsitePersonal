@@ -37,15 +37,6 @@ export default function HeaderRSVP() {
                         Please provide a working phone number.
                     </div>
                 </div>
-                {/* <div class="col-md-4 mb-2">
-                    <label htmlFor="numGuests">Number of Guests</label>
-                    <div class="input-group">
-                        <input type="text" name="numGuests" class="form-control" id="numGuests" placeholder="Number of Guests" required />
-                        <div class="invalid-feedback">
-                            Please let us know the size of your party.
-                        </div>
-                    </div>
-                </div> */}
                 <div class="col-md-4 mb-2">
                     <label htmlFor="country">Country</label>
                     <input type="text" name="country" class="form-control" id="country" placeholder="Canada/US" />
