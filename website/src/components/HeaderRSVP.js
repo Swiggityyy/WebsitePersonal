@@ -62,6 +62,14 @@ export default function HeaderRSVP() {
                 </div>
                 <div class="form-row">
                     <div class="col-md-6 mb-2">
+                        <label htmlFor="pNames">Names of People in Party</label>
+                        <div class="input-group">
+                            <textarea type="text" name="pNames" id="pNames" class="form-control" placeholder="John Nguyen, Susie Nguyen, Brittany Truong" />
+                        </div>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="col-md-6 mb-2">
                         <label htmlFor="comment">Comments and Blessings</label>
                         <div class="input-group">
                             <textarea type="text" name="comment" id="comment" class="form-control" placeholder="Dear Chris and Uyenie, you guys are awesome. We are grateful to have you in our lives. -Love, the best relative ever :)" />
