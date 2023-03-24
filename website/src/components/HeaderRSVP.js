@@ -46,8 +46,8 @@ export default function HeaderRSVP() {
                     <input type="text" name="address" class="form-control" id="address" placeholder="12345 Fake Street, Imaginary City CA 92683" />
                 </div>
                 <div class="col-md-6 mb-2">
-                    <label htmlFor="pNames">Names of People in Party</label>
-                    <textarea type="text" name="pNames" id="pNames" class="form-control" placeholder="John Nguyen, Susie Nguyen, Brittany Truong" />
+                    <label htmlFor="party">Names of People in Party</label>
+                    <textarea type="text" name="party" id="party" class="form-control" placeholder="John Nguyen, Susie Nguyen, Brittany Truong" />
                 </div>
                 <div class="col-md-6 mb-2">
                     <label htmlFor="comment">Comments and Blessings</label>
