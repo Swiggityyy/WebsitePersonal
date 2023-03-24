@@ -47,11 +47,11 @@ export default function HeaderRSVP() {
                 </div>
                 <div class="col-md-6 mb-2">
                     <label htmlFor="party">Names of People in Party</label>
-                    <textarea type="text" name="party" id="party" class="form-control" placeholder="John Nguyen, Susie Nguyen, Brittany Truong" />
+                    <textarea type="text" name="party" class="form-control" id="party" placeholder="John Nguyen, Susie Nguyen, Brittany Truong" />
                 </div>
                 <div class="col-md-6 mb-2">
                     <label htmlFor="comment">Comments and Blessings</label>
-                    <textarea type="text" name="comment" id="comment" class="form-control" placeholder="Dear Chris and Uyenie, you guys are awesome. We are grateful to have you in our lives. -Love, the best relative ever :)" />
+                    <textarea type="text" name="comment" class="form-control" id="comment" placeholder="Dear Chris and Uyenie, you guys are awesome. We are grateful to have you in our lives. -Love, the best relative ever :)" />
                 </div>
             </div>
             <button class="btn btn-primary" type="submit">Submit form</button>
