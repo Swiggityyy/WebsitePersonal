@@ -120,8 +120,8 @@ export default function Headercalendar() {
             <div class="containercalendar rightcalendar">
                 <div class="contentcalendar">
                     <h2>September 5th 2005</h2>
-                    <p>Warner Middle Schhol.
-                        Love at first site.
+                    <p>Uyenie meets Chris. Warner Middle School.
+                            Love at first site.
                     </p>
                 </div>
             </div>
