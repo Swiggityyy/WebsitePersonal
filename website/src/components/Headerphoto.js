@@ -5,6 +5,8 @@ import "./react-image-gallery/styles/css/image-gallery.css";
 
 
 export default function Headerphoto() {
+    let random = Math.floor((Math.random() * 500) + 1); 
+
     const images = [
         {
             original: 'https://chrisanduyenie.s3.us-west-1.amazonaws.com/images/ChrisUyenie_RVP110.jpg',
@@ -1768,8 +1770,7 @@ export default function Headerphoto() {
                 },
     ];
 
-    let random = Math.floor((Math.random() * 200) + 1); 
-
+    
     return (
         <div>
             <ImageGallery items={images}
