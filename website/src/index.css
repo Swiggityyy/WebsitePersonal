@@ -11291,6 +11291,6 @@ textarea.form-control-lg {
 
  }
 body {
-  background: url("https://chrisanduyenie.s3.us-west-1.amazonaws.com/engagement/ALV00595.jpg") no-repeat bottom center fit;
+  background: url("https://chrisanduyenie.s3.us-west-1.amazonaws.com/engagement/ALV00595.jpg") no-repeat middle center fixed;
   background-size: cover;
 }
