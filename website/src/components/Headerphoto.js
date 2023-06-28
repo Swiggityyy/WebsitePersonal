@@ -1768,7 +1768,7 @@ export default function Headerphoto() {
                 },
     ];
 
-    let random = Math.floor((Math.random() * 170) + 1); 
+    let random = Math.floor((Math.random() * 2000) + 1); 
 
     return (
         <div>
