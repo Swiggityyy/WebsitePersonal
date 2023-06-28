@@ -7325,6 +7325,11 @@ textarea.form-control-lg {
   color: darkmagenta;
 }
 
+.picthumbnail {
+  height: "84";
+  width: "190";
+}
+
 .mt-auto {
   margin-top: auto !important;
 }
