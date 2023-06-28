@@ -7328,6 +7328,7 @@ textarea.form-control-lg {
 .picthumbnail {
   height: "84";
   width: "190";
+  z-index: -1;
 }
 
 .mt-auto {
