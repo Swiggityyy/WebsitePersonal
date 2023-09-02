@@ -42,8 +42,8 @@ export default function HeaderRSVP() {
                     <input type="text" name="country" id="country" class="form-control" placeholder="Canada/US" />
                 </div>
                 <div class="col-md-4 mb-2">
-                    <label htmlFor="address">Full Address</label>
-                    <input type="text" name="address" id="address" class="form-control" placeholder="12345 Fake Street, Imaginary City CA 92683" />
+                    <label htmlFor="diet">Dietary Restrictions</label>
+                    <input type="text" name="diet" id="diet" class="form-control" placeholder="I am vegetarian, allergic to peanuts, and pescatarian. Also, I don't eat gluten" />
                 </div>
                 <div class="col-md-6 mb-2">
                     <label htmlFor="party">Names of People in Party</label>
