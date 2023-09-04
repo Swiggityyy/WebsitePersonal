@@ -5,7 +5,7 @@ import "./react-image-gallery/styles/css/image-gallery.css";
 
 
 export default function Headerphoto() {
-    let random = Math.floor((Math.random() * 500) + 1); 
+    let random = Math.floor((Math.random() * 50) + 1); 
 
     const images = [
         {
