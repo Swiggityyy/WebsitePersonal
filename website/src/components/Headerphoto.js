@@ -45,10 +45,6 @@ export default function Headerphoto() {
             thumbnail: 'https://chrisanduyenie.s3.us-west-1.amazonaws.com/Mainpage/ChrisUyenie_RVP11.jpg',
             },
             {
-            original: 'https://s3.console.aws.amazon.com/s3/object/chrisanduyenie?region=us-west-1&prefix=Mainpage/ChrisUyenie_RVP15.jpg',
-            thumbnail: 'https://s3.console.aws.amazon.com/s3/object/chrisanduyenie?region=us-west-1&prefix=Mainpage/ChrisUyenie_RVP15.jpg',
-            },
-            {
             original: 'https://chrisanduyenie.s3.us-west-1.amazonaws.com/Mainpage/ChrisUyenie_RVP164.jpg',
             thumbnail: 'https://chrisanduyenie.s3.us-west-1.amazonaws.com/Mainpage/ChrisUyenie_RVP164.jpg',
             },
