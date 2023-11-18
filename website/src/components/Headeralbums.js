@@ -6,6 +6,7 @@ export default function Headeralbums() {
                     <div class="col-lg-6">
                         <h1 class="mt-4"><a href="https://drive.google.com/drive/folders/1klPmnxaruhEUianp6T3LIMzzOF1omhvi?usp=share_link" target="_blank" >Engagement Party</a></h1>
                         <h1 class="mt-4"><a href="https://photos.app.goo.gl/96uq6WjLbfShCPDy7" target="_blank" >Engagement Photos</a></h1>
+                        <h1 class="mt-4"><a href="https://drive.google.com/drive/folders/1jbzFiF9tbTtLPq5jSdgPVKHV9VNPu9w4?usp=sharing" target="_blank" >Courthouse Wedding</a></h1>
                     </div>
                 </div>
             </div>
