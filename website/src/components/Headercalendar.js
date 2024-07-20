@@ -5,6 +5,18 @@ export default function Headercalendar() {
         <div class="timeline">   
             <div class="containercalendar leftcalendar">
                 <div class="contentcalendar">
+                    <h2>June 9th 2024</h2>
+                    <p>Chris and Uyenie Buy a Condo!</p>
+                </div>
+            </div>
+            <div class="containercalendar rightcalendar">
+                <div class="contentcalendar">
+                    <h2>December 18th 2024</h2>
+                    <p>Chris starts his new IT job at WGA</p>
+                </div>
+            </div>
+            <div class="containercalendar leftcalendar">
+                <div class="contentcalendar">
                     <h2>December 16th 2023</h2>
                     <p>Chris and Uyenie' wedding day!</p>
                 </div>
