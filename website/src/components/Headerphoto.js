@@ -6,6 +6,9 @@ import { Container } from 'react-bootstrap'
 
 export default function Headerphoto() {
 
+
+
+    
 // let random = Math.floor((Math.random() * 50) + 1); 
 
     // const images = [
@@ -84,9 +87,9 @@ export default function Headerphoto() {
     // ];
 
     
-    return (
-        <div>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/S04-Ys_H7AY?si=a2vJimMwVB8gWY_W" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    // return (
+    //     <div>
+    //         <iframe width="560" height="315" src="https://www.youtube.com/embed/S04-Ys_H7AY?si=a2vJimMwVB8gWY_W" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             
              {/* <ImageGallery items={images}
                 startIndex={4}
@@ -96,9 +99,9 @@ export default function Headerphoto() {
                 thumbnailPosition='right'
                 useBrowserFullscreen={true}
             />;  */}
-        </div>
+    //     </div>
 
-    )
+    // )
 };
 
 
