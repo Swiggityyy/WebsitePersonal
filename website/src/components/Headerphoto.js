@@ -4,8 +4,20 @@ import "./react-image-gallery/styles/css/image-gallery.css";
 
 export default function Headerphoto() {
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/S04-Ys_H7AY?si=a2vJimMwVB8gWY_W" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    return (
+        <section data-toggle="collapse" data-target=".navbar-collapse" id="">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5">
+                    <div class="col-lg-6">
+                        <h1 class="mt-4"><a href="https://youtu.be/S04-Ys_H7AY?si=7ARleS0tatXfZmF7" target="_blank" >Wedding Video</a></h1>
+                        <h1 class="mt-4"><a href="https://youtu.be/YyS6LK5dcDo" target="_blank" >Highlights v1</a></h1>
+                        <h1 class="mt-4"><a href="https://youtu.be/HyIPNZj490c" target="_blank" >Highlights v2</a></h1>
+                    </div>
+                </div>
+            </div>
+        </section>
 
+    )
 
 // let random = Math.floor((Math.random() * 50) + 1); 
 
