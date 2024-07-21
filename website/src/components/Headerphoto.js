@@ -2,13 +2,11 @@ import React from 'react';
 // import ImageGallery from 'react-image-gallery';
 import "./react-image-gallery/styles/css/image-gallery.css";
 
-import { Container } from 'react-bootstrap'
-
 export default function Headerphoto() {
 
 
 
-    
+
 // let random = Math.floor((Math.random() * 50) + 1); 
 
     // const images = [
