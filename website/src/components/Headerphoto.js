@@ -10,6 +10,7 @@ export default function Headerphoto() {
                 <div class="row gx-4 gx-lg-5">
                     <div class="col-lg-6">
                         <h1 class="mt-4"><a href="https://youtu.be/S04-Ys_H7AY?si=7ARleS0tatXfZmF7" target="_blank" >Wedding Video</a></h1>
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/S04-Ys_H7AY?si=7ARleS0tatXfZmF7" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                         <h1 class="mt-4"><a href="https://youtu.be/YyS6LK5dcDo" target="_blank" >Highlights v1</a></h1>
                         <h1 class="mt-4"><a href="https://youtu.be/HyIPNZj490c" target="_blank" >Highlights v2</a></h1>
                     </div>
