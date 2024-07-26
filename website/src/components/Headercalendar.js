@@ -2,7 +2,13 @@
 
 export default function Headercalendar() {
     return (
-        <div class="timeline">   
+        <div class="timeline">
+            <div class="containercalendar rightcalendar">
+                <div class="contentcalendar">
+                    <h2>August 2nd 2024</h2>
+                    <p>Chris and Uyenie Host a Summer Camp!</p>
+                </div>
+            </div>   
             <div class="containercalendar leftcalendar">
                 <div class="contentcalendar">
                     <h2>June 9th 2024</h2>
