@@ -9,7 +9,7 @@ export default function Headercalendar() {
                     <p>Chris and Uyenie Host a Summer Camp!</p>
                 </div>
             </div>   
-            <div class="containercalendar leftcalendar">
+            <div class="containercalendar rightcalendar">
                 <div class="contentcalendar">
                     <h2>June 9th 2024</h2>
                     <p>Chris and Uyenie Buy a Condo!</p>
@@ -27,7 +27,7 @@ export default function Headercalendar() {
                     <p>Chris and Uyenie' wedding day!</p>
                 </div>
             </div>
-            <div class="containercalendar rightcalendar">
+            <div class="containercalendar leftcalendar">
                 <div class="contentcalendar">
                     <h2>March 20th 2023</h2>
                     <p>Chris makes a website :3</p>
@@ -39,13 +39,13 @@ export default function Headercalendar() {
                     <p>Our engagement party!</p>
                 </div>
             </div>
-            <div class="containercalendar rightcalendar">
+            <div class="containercalendar leftcalendar">
                 <div class="contentcalendar">
                     <h2>January 2023</h2>
                     <p>Tet Festival D:</p>
                 </div>
             </div>
-            <div class="containercalendar leftcalendar">
+            <div class="containercalendar rightcalendar">
                 <div class="contentcalendar">
                     <h2>October 27th 2022</h2>
                     <p>Chris proposes!!!</p>
@@ -57,7 +57,7 @@ export default function Headercalendar() {
                     <p>Chris and Uyenie go to see the Moulin Rouge!</p>
                 </div>
             </div>
-            <div class="containercalendar leftcalendar">
+            <div class="containercalendar rightcalendar">
                 <div class="contentcalendar">
                     <h2>March 11th 2022</h2>
                     <p>Chris and Uyenie get Disney passes.</p>
@@ -75,7 +75,7 @@ export default function Headercalendar() {
                     <p>Uyenie adopts a pet snail named SNELLY!!!!</p>
                 </div>
             </div>
-            <div class="containercalendar rightcalendar">
+            <div class="containercalendar leftcalendar">
                 <div class="contentcalendar">
                     <h2>Nov 29th 2021</h2>
                     <p>Chris and Uyenie go to Riverside to
@@ -88,7 +88,7 @@ export default function Headercalendar() {
                     <p>Chris and Uyenie go to the Aquarium</p>
                 </div>
             </div>
-            <div class="containercalendar rightcalendar">
+            <div class="containercalendar leftcalendar">
                 <div class="contentcalendar">
                     <h2>September 13th 2021</h2>
                     <p>They get really involved in the
@@ -103,7 +103,7 @@ export default function Headercalendar() {
                         with their middle school friends</p>
                 </div>
             </div>
-            <div class="containercalendar rightcalendar">
+            <div class="containercalendar leftcalendar">
                 <div class="contentcalendar">
                     <h2>July 2nd 2021</h2>
                     <p>Chris and Uyenie's first kiss
@@ -120,7 +120,7 @@ export default function Headercalendar() {
                 </div>
             </div>
            
-            <div class="containercalendar rightcalendar">
+            <div class="containercalendar leftcalendar">
                 <div class="contentcalendar">
                     <h2>June 20th 2021</h2>
                     <p>Chris comes home and they get
