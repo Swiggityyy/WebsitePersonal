@@ -106,7 +106,7 @@ export default function Headercalendar() {
             <div class="containercalendar leftcalendar">
                 <div class="contentcalendar">
                     <h2>July 2nd 2021</h2>
-                    <p>Chris and Uyenie's first kiss
+                    <p>Chris and Uyenie's first kiss.
                         It was at a stop light on a left
                         hand turn on Bolsa and Magnolia.
                     </p>
