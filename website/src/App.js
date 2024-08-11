@@ -16,7 +16,7 @@ function App() {
     <Route index element={<Homepage />} />
     {/* <Route path='/rsvp' element={<RSVP />} /> */}
     <Route path='/calendar' element={<Calendar />} />
-    <Route path='/contact' element={<Contact />} />
+    {/* <Route path='/contact' element={<Contact />} /> */}
     <Route path='/video' element={<Headerphoto />} />
     <Route path='/albums' element={<Headeralbums />} />
     <Route path='*' element={<Error />} />
