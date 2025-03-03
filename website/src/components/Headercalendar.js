@@ -6,13 +6,13 @@ export default function Headercalendar() {
             <div class="containercalendar rightcalendar">
                 <div class="contentcalendar">
                     <h2>December 22nd 2024</h2>
-                    <p>Chris and Uyenie Chris and Uyenie get another cat!</p>
+                    <p>Chris and Uyenie Chris and Uyenie get another cat! -Bootstrap Bill</p>
                 </div>
             </div> 
             <div class="containercalendar rightcalendar">
                 <div class="contentcalendar">
                     <h2>September 26th 2024</h2>
-                    <p>Chris and Uyenie Chris and Uyenie get cat!</p>
+                    <p>Chris and Uyenie Chris and Uyenie get cat! -Captain Jack</p>
                 </div>
             </div>  
             <div class="containercalendar rightcalendar">
